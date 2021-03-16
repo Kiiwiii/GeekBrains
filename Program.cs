@@ -13,7 +13,7 @@ namespace HomeWork1
             Console.Write("Введите свое имя: ");
             string name = Console.ReadLine();
             DateTime date = DateTime.Now;
-            Console.WriteLine($"Привет, {name}, сейчас {date}, привет");
+            Console.WriteLine($"Привет, {name}, сейчас {date}");
 
             Console.ReadKey();
         }
